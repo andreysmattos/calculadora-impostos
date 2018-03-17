@@ -1,0 +1,42 @@
+.box {
+	margin-top: 36px;
+	margin-bottom: 36px;
+}
+
+.form {
+	margin-top: 36px;
+}
+
+.input_direita {
+	text-align:right;
+}
+
+.calc {
+	margin-left: 60%;
+}
+
+#table-entrada {
+ margin:20px;
+ border:1px solid #ccc;
+ border-collapse:collapse;
+ border-spacing:0
+}
+#table-entrada th {
+ border-bottom:1px solid #ccc
+}
+#table-entrada th,#table-entrada td {
+ padding:4px 7px;
+ box-sizing:border-box;
+ -moz-box-sizing:border-box
+}
+#table-entrada tr td:first-child {
+ font-weight:bold
+}
+
+.table-resultado tr.resultado {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    color: #27754d;
+    line-height: 30px;
+}

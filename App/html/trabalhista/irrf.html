@@ -1,0 +1,73 @@
+<h1>Cálculo IRRF</h1>
+<h6>Cálculo do valor do Imposto de renda retido na fonte sobre o salário do trabalhador.</h6>
+
+<div class="row">
+	<div class="col-md-8 form">
+
+
+
+
+		<form method="post" id="irrf">
+			<div class="input-group">
+				<label class="col-sm-4" for="salario_bruto">Salário Bruto</label>
+				<div class="input-group-prepend">
+					<span class="input-group-text">R$</span>					
+				</div>
+				<input type="text" class="form-control col-sm-4 input_direita dinheiro" name="salario_bruto" id="salario_bruto" placeholder="0,00">
+			</div>
+
+			<br/>
+			<div class="input-group">
+				<label class="col-sm-4" for="meses">Número de dependentes</label>
+				<div class="input-group-prepend">
+					<span class="input-group-text">00</span>			
+				</div>
+				<input type="text" class="form-control col-sm-4 input_direita mes" name="dependentes" id="dependentes" placeholder="0">
+			</div>
+
+
+			
+			<br/>
+			<button type="submit" class="btn btn-success calc">Calcular</button>
+		</form>
+
+		<br/>
+
+		<div id="irff"> 
+
+			<!-- Inicio ajax -->			
+
+
+			<table class="table table-bordered table-resultado " style="">
+            <colgroup>
+                <col style="width:210px;">
+                <col style="width:110px;">
+                <col style="width:200px;">
+              </colgroup>  
+            <thead>
+            <tr>
+                <th>Evento</th>
+                <th>Ref.</th>
+                <th>Valor</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="resultado">
+                <td>IRRF</td>
+                <td class="text-center">22,00%</td>
+                <td class="text-right">R$237,00</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <!-- FIM AJAX -->
+
+
+		</div>
+
+
+	</div>
+	<br/>
+</div>
+<div class="col-md-4"> </div>
+</div>
