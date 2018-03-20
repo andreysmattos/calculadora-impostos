@@ -21,6 +21,8 @@ class Route
 		$routes['trabalhista'] = array('route'=>'/trabalhista', 'arq'=>'trabalhista.php');
 		$routes['fgts'] = array('route'=>'/trabalhista/fgts', 'arq'=>'trabalhista/fgts.php');
 		$routes['irrf'] = array('route'=>'/trabalhista/irrf', 'arq'=>'trabalhista/irrf.html');
+		$routes['inss'] = array('route'=>'/trabalhista/inss', 'arq'=>'trabalhista/inss.html');
+		$routes['salario_liquido'] = array('route'=>'/trabalhista/salario_liquido', 'arq'=>'trabalhista/salario_liquido.html');
 		$this->setRoutes($routes);
 	}
 
